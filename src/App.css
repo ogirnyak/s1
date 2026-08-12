@@ -1,15 +1,11 @@
-.app {
-  background-color: #0d1117;
-  min-height: 100vh;
-  padding: 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: flex-start;
-}
- 
 .search-row {
   display: flex;
   align-items: center;
   gap: 16px;
+  align-self: flex-start;
+}
+
+.app-title,
+.app-paragraph {
+  align-self: flex-start;
 }
