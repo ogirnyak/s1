@@ -1,0 +1,11 @@
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: flex-start;
+}
+
+.app-title,
+.app-paragraph {
+  align-self: flex-start;
+}
